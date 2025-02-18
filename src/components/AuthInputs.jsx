@@ -15,6 +15,7 @@ const Label = styled.label`
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  text-align: left;
   color: ${({ $invalid }) => ($invalid ? "#f87171" : "#6b7280")};
 `;
 
